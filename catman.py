@@ -48,7 +48,7 @@ def block_input(bind_name, bind_smol_name, counter):
             input_phrase = input()
             if input_phrase == end_phrase:
                 break
-            elif input_phrase != "":
+            elif input_phrase.strip()!="":
                 output.write(f"alias {bind_smol_name}{counter} \"say {input_phrase}; alias {bind_name} {bind_smol_name}{counter+1}\"\n")
                 counter += 1
                 prev_input = input_phrase
