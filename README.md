@@ -7,4 +7,4 @@ Generates a file with just your lines as well. That file is purged on script res
 
 I made this at 4 AM and i have no regrets
 
-Oh and also using the symbol " can break your entire bind making it stuck on one line, so try to avoid using that
+Oh and also using the symbol " can break your entire bind making it freeze on one line, so try to avoid using it if you can
